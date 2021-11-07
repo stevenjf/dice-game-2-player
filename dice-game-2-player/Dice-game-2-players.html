@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dice-game-2-player.css">
+    <title>Dice Game (2 Players)</title>
+  </head>
+
+  <body>
+
+    <p>number of players is 2</p>
+    <p>Gain 35 point to win</p>
+    
+
+    <section>
+
+      <div class="card" id="card-1">
+        <p class="size-2" id="player-1">player 1</p>
+        <p>final score:</p>
+        <p class="size-2" id="final-score-player-1">0</p>
+        <p>current score:</p>
+        <p class="size-3" id="current-score-player-1">0</p>
+      </div>
+
+      <div class="buttons">
+
+        <button id="new-game">
+          <i class="bi bi-plus-circle"></i>
+          <p>new game</p>
+        </button>
+
+        <div id="dice"></div>
+
+        <section>
+
+          <button id="roll">
+            <i class="bi bi-arrow-repeat"></i>
+            <p>roll the dice</p>
+          </button>
+
+          <button id="hold">
+            <i class="bi bi-arrow-down-circle"></i>
+            <p>hold</p>
+          </button>
+
+        </section>
+
+      </div>
+
+      <div class="card" id="card-2">
+        <p class="size-2" id="player-2">player 2</p>
+        <p>final score:</p>
+        <p class="size-2" id="final-score-player-2">0</p>
+        <p>current score:</p>
+        <p class="size-3" id="current-score-player-2">0</p>
+      </div>
+
+    </section>
+
+    <script src="Dice-game-2-player.js"></script>
+
+  </body>
+
+</html>
